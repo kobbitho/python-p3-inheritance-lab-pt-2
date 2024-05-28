@@ -47,3 +47,5 @@ class TestChattyStudent:
         chatty_student.raise_hand()
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "Pick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\n")
+
+    
